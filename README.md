@@ -4,8 +4,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AcharaChisom/FEMentor_workit)
-- Live Site URL: [Add live site URL here](https://acharachisom.github.io/FEMentor_workit/starter-code/index.html)
+- Solution URL: [https://github.com/AcharaChisom/FEMentor_workit](https://github.com/AcharaChisom/FEMentor_workit)
+- Live Site URL: [https://acharachisom.github.io/FEMentor_workit/starter-code/index.html](https://acharachisom.github.io/FEMentor_workit/starter-code/index.html)
 
 ### Screenshot
 
