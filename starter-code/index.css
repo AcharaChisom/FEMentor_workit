@@ -1,0 +1,150 @@
+*, *::before, *::after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Fraunces', serif;
+}
+
+img {
+    max-width: 100%;
+}
+a, p {
+    font-family: 'Manrope', sans-serif;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+.btn {
+    color: #24053E;
+    background: #44FFA1;
+    padding: 1em 1.5em;
+    font-weight: 700;
+}
+
+.header {
+    background: #24053E;
+    border-radius: 0 0 50% 50%/0 0 7% 7%;
+    position: relative;
+    min-height: 33rem;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+.nav__link {
+    color: #FFFFFF;
+    border-bottom: 0.1875em solid #44FFA1;
+}
+.header__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4em;
+}
+.header__title {
+    font-size: 3.125rem;
+    /* line-height: 2.5rem; */
+    color: #FFFFFF;
+    padding-bottom: 1em;
+}
+.ht__highlight {
+    padding-bottom: 0;
+    border-bottom: 0.1em solid #44FFA1;
+}
+.header__link {
+    margin-bottom: 4em;
+}
+.header__img {
+    position: absolute;
+    width: 80%;
+    /* top: 27rem; */
+    top: 85%;
+}
+
+.main {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+    background: #FCF8FF;
+    border-radius: 0 0 50% 50%/0 0 4% 4%;
+}
+.section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section + .section {
+    margin-top: 3rem;
+}
+.section__num {
+    font-size: 1.15rem;
+    width: 3em;
+    height: 3em;
+    border: 0.1em solid #24053E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2em;
+}
+.section__title {
+    font-size: 1.75rem;
+    color: #24053E;
+    margin-bottom: 1rem;
+}
+.section__text {
+    font-weight: 400;
+    line-height: 1.75em;
+}
+
+.about {
+    position: relative;
+    padding-top: 6rem;
+    min-height: 45rem;
+}
+.about__img {
+    width: 80%;
+    margin: 0 auto;
+}
+.about__info {
+    position: absolute;
+    background: #24053E;
+    padding: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    top: 43%;
+    width: 90%;
+}
+.about__info-title {
+    font-size: 2rem;
+    margin-bottom: 0.7em;
+}
+.about__info-text {
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 1.5em;
+}
+
+.footer {
+    text-align: center;
+}
+.footer__logo {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+.footer__media {
+    margin-bottom: 2em;
+}
+.social + .social {
+    margin-left: 1em;
+}
