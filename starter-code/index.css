@@ -217,7 +217,7 @@ a {
 }
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
     .header {
         background-image: url(./assets/images/bg-pattern-1.svg), url(./assets/images/bg-pattern-2.svg);
         background-repeat: no-repeat, no-repeat;
